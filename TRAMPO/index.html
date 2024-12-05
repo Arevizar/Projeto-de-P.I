@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <title>Blog Animais de Estimação</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -39,8 +40,8 @@
         <!-- Nav -->
         <nav id="nav">
             <ul>
-                <li><a href="index.html" class="active"><span class="icon fa-home"></span></a></li>
-                <li><a href="gallery.html"><span class="icon fa-camera-retro"></span></a></li>
+            </ul>
+                <li><a href="Aba AD.html"><span class="icon fa fa-paw"></span></a></li>
                 <li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>
             </ul>
         </nav>
@@ -123,21 +124,21 @@
                 <!-- Formulário de Contato -->
                 <div class="column">
                     <h3>Entre em contato.</h3>
-                    <form action="#" method="post">
+                    <form action="/enviar-mensagem" method="POST">
                         <div class="field half first">
                             <label for="name">Nome</label>
-                            <input name="name" id="name" type="text" placeholder="Name">
+                            <input name="name" id="name" type="text" placeholder="Nome" required>
                         </div>
                         <div class="field half">
                             <label for="email">Email</label>
-                            <input name="email" id="email" type="email" placeholder="Email">
+                            <input name="email" id="email" type="email" placeholder="Email" required>
                         </div>
                         <div class="field">
-                            <label for="message">Mensagem.</label>
-                            <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" rows="6" placeholder="Mensagem" required></textarea>
                         </div>
                         <ul class="actions">
-                            <li><input value="Send Message" class="button" type="submit"></li>
+                            <li><input value="Enviar Mensagem" class="button" type="submit"></li>
                         </ul>
                     </form>
                 </div>
